@@ -2,7 +2,7 @@ using System;
 class URI1012 {
     public void Area() {
         string v = Console.ReadLine();
-        string[] vsplit = v.Split(" ");
+        string[] vsplit = v.Split(@" ".ToCharArray());
         double A = double.Parse(vsplit[0]);
         double B = double.Parse(vsplit[1]);
         double C = double.Parse(vsplit[2]);
